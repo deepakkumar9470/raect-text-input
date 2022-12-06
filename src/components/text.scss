@@ -1,5 +1,7 @@
+
 :root{
     --border-color: #1d72e7;
+    --border-two : #DC3535;
 }
 
 .mytext{
@@ -7,6 +9,6 @@
    
 
     &:focus{
-        border: 2px solid var(--border-color);
+        border: 2px solid var(--border-two);
     }
 }
