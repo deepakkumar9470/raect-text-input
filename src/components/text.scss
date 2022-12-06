@@ -1,0 +1,12 @@
+:root{
+    --border-color: #1d72e7;
+}
+
+.mytext{
+    width: 500px !important;
+   
+
+    &:focus{
+        border: 2px solid var(--border-color);
+    }
+}
